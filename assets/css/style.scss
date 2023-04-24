@@ -1,0 +1,37 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif; 
+}
+.page-header{
+    background-image: none; background-image: linear-gradient(to right, black,red);
+}
+.site-footer-owner{
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    -webkit-text-fill-color: black;
+}
+.page-header h2{
+ background-image: none;
+ -webkit-text-fill-color: white;
+}
+h1 {
+    -webkit-text-fill-color: black
+}
+.page-header h1{
+    -webkit-text-fill-color: white;
+}
+button{
+    background-color: transparent;
+    border-radius: 0.3rem;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.1px;
+}
+
